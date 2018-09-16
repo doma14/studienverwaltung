@@ -45,7 +45,6 @@ public class DatasourceBean {
 	private Map<String, ?> hibernateJpaProperties() {
 
 		HashMap<String, String> properties = new HashMap<>();
-		// properties.put("hibernate.hbm2ddl.import_files", "insert-data.sql");
 		properties.put("hibernate.hbm2ddl.auto", "create-drop");
 		properties.put("hibernate.show_sql", "true");
 		properties.put("hibernate.format_sql", "true");
